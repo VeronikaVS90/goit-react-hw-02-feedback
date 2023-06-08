@@ -11,16 +11,16 @@ export const ButtonsList = styled.ul`
 `;
 
 export const ButtonsListItem = styled.li`
-  width: 150px;
+  width: 100px;
 `;
 
 export const Button = styled.button`
   width: 100%;
-  border: 2px solid #fed800;
+  border: 2px solid #000;
   background-color: transparent;
   border-radius: 15px;
-  padding: 15px;
-  font-size: 18px;
+  padding: 10px;
+  font-size: 15px;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94),
     color 250ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
@@ -28,7 +28,7 @@ export const Button = styled.button`
 
   &:hover,
   &:focus {
-    background-color: grey;
+    background-color: #f0f255;
     color: #fff;
   }
 `;
